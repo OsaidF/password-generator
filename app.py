@@ -4,6 +4,12 @@ import random
 from st_copy_to_clipboard import st_copy_to_clipboard
 
 
+st.set_page_config(
+    page_title="Password Generator",
+    page_icon=":1234:",
+    layout="centered"
+)
+
 def app():
     st.header(':sparkles: Password Generator _by :red[Osaid]_')
     st.markdown('''#### Inspired by [LastPass Password Generator.](https://www.lastpass.com/features/password-generator) :1234: &mdash;\
